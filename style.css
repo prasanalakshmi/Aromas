@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+/* !FIRST PAGE STARTS HERE */
+#first_page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Assets/WhatsApp\ Image\ 2025-05-01\ at\ 16.16.10_12e3f5c6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 10px solid black; */
+
+}
+
+nav{
+    height: 20vh;
+    /* border:  2px solid red; */
+    display: flex;
+}
+#nav_one{
+    /* border: 2px solid blue */
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    height: 170px;
+    width: 240px;
+    /* border: 2px solid black; */
+}
+#nav_two
+{
+    /* border: 2px solid blue */
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 550;
+}
+#nav_three{
+    /* border: 2px solid blue; */
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    position: relative;
+}
+.fa-cart-shopping{
+    color:white;
+    font-size: 25px;
+}
+#cart_items{
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 102px;
+    font-weight: 550;
+
+}
+#price{
+    font-size: 18px;
+    color: white;
+    font-weight: 550;
+}
+
+/* !SECOND PAGE STARTS HERE */
+#second_page{
+height: 100vh;
+width: 100wh;
+/* border: 10px solid black; */
+}
+#article_one{
+    /* border: 2px solid red; */
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    font-family:  "Dancing Script", cursive;
+    font-size: 65px;
+    color: red;
+    
+}
+#article_two{
+ /* border: 2px solid blue;    */
+ height:  85vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.card_container{
+    height: 450px;
+    width: 290px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin: 10px;
+
+}
+.food_img{
+    height: 47%;
+    scale: 0.8;
+    transition: all 0.2s os ease;
+}
+.food_img:hover{
+    scale: 1.00;
+}
+.food_title{
+    font-size: 20px;
+}
+.food_description{
+ font-size: 15px;
+ font-family:  "Dancing Script", cursive;
+ text-align: center;
+}
+.price_items{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid rebeccapurple; */
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+
+.food_price{
+    font-weight: 550;
+    font-style: italic;
+
+}
+.food_quantity{
+    font-size: 18px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-minus,.fa-plus{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    padding:6px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    margin: 0px 10px;
+}
+/* !third page */
+#menu_one, #menu_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+/* !fourth page */
+#fourth_page{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+}
+#fourth_one{
+   /* border: 2px solid red; */
+   height: 20vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+#fourth_one>h1{
+    font-family:  "Dancing Script", cursive;
+     font-size: 50px;
+     color: red;
+    }
+#fourth_two{
+    /* border: 2px solid blue; */
+    height: 30vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+}
+#fourth_two>h3{
+font-size: 20px;
+letter-spacing: 2px;
+}
+#fourth_two>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    color: grey;
+}
+#fourth_three{
+  /* border: 2px solid navy; */
+height: 50vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 20px;
+
+}
+#fourth_three_one{
+ /* border: 2px solid red; */
+ height: 50vh;
+ width: 40vw;
+}
+#fourth_three_one>img{
+   height: 50vh;
+   width: 40vw;
+   padding: 20px 20px;
+   border-radius: 70px;
+}
+#fourth_three_two{
+   /* border: 2px solid green; */
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+}
+#fourth_three_two>h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#fourth_three_two>p{
+    padding: 15px;
+    color: rgb(57, 55, 55);
+    font-style: italic;
+}
+/* !fifth page */
+#fifth_page{
+    height: 70vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 70px;
+}
+#fifth_page_one{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+#fifth_page_one>h2{
+    /* border: 2px solid red; */
+    height: 10vh;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: red;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+             
+}
+#fifth_page_one>form{
+    /* border: 2px solid greenyellow; */
+    height: 60vh;
+    flex-basis: 85%;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: space-evenly;
+    padding-right: 70px;
+    
+    
+}
+#fifth_page_one>form>input{
+    width: 25vw;
+    padding: 5px 10px;
+}
+[type="submit"]{
+   /* border: 2px solid red; */
+   font-family: "Dancing Script", cursive;
+font-size: 20px;
+background-color: red;
+color: white;
+border-radius: 40%;
+}
+#fifth_page_two{
+    /* border: 2px solid red; */
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+iframe{
+    height: 250px;
+    width: 400px;
+    border-radius: 10%;
+}
+/* !sixth page */
+#sixth_page{
+    /* border: 5px solid black; */
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#sixth_page_one{
+    /* border: 2px solid red; */
+    flex-basis: 85%;
+    display: flex;
+    background-color: rgb(0, 0, 9);
+    color: white;
+}
+#sixth_page_one_one{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-style: italic;
+}
+#sixth_page_one_one>h2{
+    font-family: "Dancing Script", cursive;
+    color: red;
+    font-size: 40px;
+}
+#sixth_page_one_two{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: 800;
+}
+#sixth_page_one_two>h2{
+    font-family: "Dancing Script", cursive;
+    color: red;
+    font-size: 40px;
+}
+#sixth_page_one_two>p{
+    text-align: center;
+}
+#sixth_page_one_three{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-style: italic;
+}
+#sixth_page_one_three>h2{
+    font-family: "Dancing Script", cursive;
+    color: red;
+    font-size: 40px;
+}
+#sixth_page_two{
+    /* border: 2px solid red; */
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 9);
+   color: white;
+}
